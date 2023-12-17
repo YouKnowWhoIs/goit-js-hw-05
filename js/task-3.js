@@ -5,13 +5,6 @@ const sortByDescendingFriendCount = (users) => {
     (moreFriends, littleFriends) =>
       littleFriends.friends.length - moreFriends.friends.length
   );
-  /* 
-  .map((user) => ({
-      name: user.name,
-      friends: user.friends,
-      gender: user.gender,
-    })); 
-    */
 };
 
 console.log(
